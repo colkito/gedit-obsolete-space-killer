@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python
+Module=obsoletespacekiller
+IAge=3
+Name=Obsolete space killer
+Description=Elimina espacios en blanco (obsoletos) antes de guardar.
+Authors=Mario Colque <mario@feegos.com>
+Copyright=Copyright © Colkito
+Version=0.1
+Website=https://github.com/colkito/gedit-obsolete-space-killer
