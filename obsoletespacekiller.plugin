@@ -6,5 +6,5 @@ Name=Obsolete space killer
 Description=Elimina espacios en blanco (obsoletos) antes de guardar.
 Authors=Mario Colque <mario@feegos.com>
 Copyright=Copyright © Colkito
-Version=0.1
+Version=0.2
 Website=https://github.com/colkito/gedit-obsolete-space-killer

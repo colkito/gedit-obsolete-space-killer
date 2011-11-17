@@ -24,9 +24,8 @@ class WhiteSpaceTerminator(GObject.Object, Gedit.WindowActivatable):
         handler = tab.get_document().connect("save", self.on_document_save)
         self.handlers.append((tab, handler))
 
-    def on_document_save(self, document, location, encoding, compression,
-                         flags, data=None):
-        for i, text in enumerate(document.props.text.rstrip().splitlines()):
+    def on_document_save(self, document, location, encoding, compression, flags, data=None):
+        for i, text in enumerate(document.props.text.splitlines()):
             strip_stop = document.get_iter_at_line(i)
             strip_stop.forward_to_line_end()
             strip_start = strip_stop.copy()
