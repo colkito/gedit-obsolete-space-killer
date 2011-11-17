@@ -1,0 +1,8 @@
+Installation
+============
+
+- Copy obsoletespacekiller.py and obsoletespacekiller.plugin on /usr/lib/gedit/plugins/
+- chmod +r obsoletespacekiller.py
+- chmod +r obsoletespacekiller.plugin
+- Activate
+- Enjoy!
